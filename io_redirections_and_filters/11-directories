@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Fa | grep "/$" | wc -l
+find . -type d | wc -l
