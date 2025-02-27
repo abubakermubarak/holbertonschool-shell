@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -type f,d| rev | cut -d '/' -f2 |rev| sort
+find . -empty -type f,d | rev | cut -d '/' -f 1 | rev | sort
